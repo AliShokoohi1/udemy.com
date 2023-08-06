@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'DM Sans';
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+h2 {
+    margin-left: 35px;
+    padding-top: 15px;
+}
+.nav-bar {
+    width: calc(100vw-50px);
+    height: 81px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 3px 4px 7px #E6E7E9;
+    z-index: 3;
+}
+.nav-bar img {
+    width: 91px;
+    height: 34px;
+    padding: 24px 27px;
+}
+.nav-bar .cat-drop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar .cat-drop a span {
+    font-size: 15.75px;
+}
+.nav-bar .cat-drop a {
+    padding: 16px;
+
+}
+.nav-bar .cat-drop a svg {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    fill: black;
+    transition-duration: 200ms;
+}
+.nav-bar .cat-drop3 , .nav-bar .cat-drop4 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar .cat-drop3 .popup-1 {
+    display: none;
+    align-self: center;
+    justify-content: center;
+    flex-direction:column ;
+    position: absolute;
+    top:50px;
+    right: 30px;
+    width: 324px;
+    height: 181px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px #808080;
+    z-index: 4;
+}
+.nav-bar .cat-drop4 .popup-2 {
+    display: none;
+    align-self: center;
+    justify-content: center;
+    flex-direction:column ;
+    position: absolute;
+    top:50px;
+    right: 10px;
+    width: 324px;
+    height: 181px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px #838383;
+    z-index: 4;
+}
+.cat-drop4:hover .popup-2 {
+    display: block;
+}
+.cat-drop3:hover .popup-1 {
+    display: block;
+}
+
+.nav-bar .cat-drop3 .popup-1 .span-1 p , .nav-bar .cat-drop4 .popup-2 .span-1 p {
+    font-size: 21px;
+    font-weight: 600;
+}
+.nav-bar .cat-drop3 .popup-1 .span-1 , .nav-bar .cat-drop4 .popup-2 .span-1  {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+.nav-bar .cat-drop3 .popup-1 .span-2 , .nav-bar .cat-drop4 .popup-2 .span-2  {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.nav-bar .cat-drop3 .popup-1 .span-2 h2 , .nav-bar .cat-drop4 .popup-2 .span-2 h2 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: white;
+    font-family: 12px;
+}
+
+.input-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 647px; 
+}
+.input-search input {
+    border: none;
+    
+    align-items: center;
+}
+
+.menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menus .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 45px;
+    padding-right: 0 6.5px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+.menus .icon {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin-left: 9px;
+    background-color: white;
+    border: 1px solid black;
+}
+.menus .icon a:hover {
+    color: black;
+}
+.menus .Signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 47px;
+    background-color: black;
+    margin-left: 9px;
+} 
+.menus .login a {
+    width: 100px;
+    height: 45px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    
+
+}
+.menus .login a:hover{
+    background-color: #f3f3f3;
+}
+.menus .Signup a {
+    width: 100px;
+    height: 47px;
+    font-size: 12.75px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.menus .Signup a:hover {
+    background-color: #282828;
+}
+
+/* body */ 
+
+.text-bcg img {
+    width: calc(100vw - 100px);
+    margin-left: 25px;
+    margin: 25px;
+    margin: 10px 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.text-bcg .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 495px;
+    height: 250px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    top:165px;
+    left:80px;
+    padding: 27px;
+    box-shadow: 0 0 10px #a1a1a1;
+}
+.text-bcg .box h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    padding-bottom: 9px;
+}
+.text-bcg .box p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    line-height: 29px;
+    padding-bottom: 18px;
+}
+
+
+.text-bcg .box span {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 54px;
+    margin: 0;
+    
+}
+.text-bcg .box span a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 54px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    
+}
+.bbody , .list-box {
+    padding-left: 40px;
+}
+.bbody h2 {
+    padding: 20px 0px;
+    font-size: 36px;
+}
+.bbody p {
+    font-size: 22px;
+}
+.crasel ul {
+    list-style: none;
+    display: flex;
+}
+.crasel ul li {
+    font-weight: bold;
+    padding: 30px 20px;
+} 
+
+.crasel ul li a {
+    color: gray;
+}
+.crasel ul li a:hover {
+    color: black;
+}
+.crasel ul li a.a11 {
+    color: black;
+} 
+.list-box {
+    display: flex;
+    flex-direction: column;
+    width: 1400px ;
+    height: 607px;
+    border: 1px solid black;
+    margin-left: 33px;
+    padding: 37px;
+}
+.list-box span {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 45px;
+    margin: 0;
+    
+}
+.list-box span a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 139px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.list-box h2 {
+    padding-bottom: 9px;
+}
+.list-box p {
+    padding-bottom: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 18px;
+    max-width: 900px;
+}
+.list-box ul {
+    display: flex;
+    list-style: none;
+}
+.list-box ul li {
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.list-box ul li , .list-box ul li a , .list-box ul li p , .list-box ul li h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.list-box ul li h2 {
+    font-weight: bold;
+    font-size: 15px;
+}
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 1400px;
+    height: 370px;
+    border: 1px solid black;
+    margin-left: 33px;
+    padding: 37px;
+    margin-top: 30px;
+    position: relative;
+}
+.comments .c1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 330px;
+    height: 370px;
+    border: 0.5px solid gray;
+    padding: 27px;
+    margin-right: 15px;
+}
+.comments .c1 .h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 19px;
+}
+.comments .c1 .h1 h1 {
+    font-size: 50px;
+}
+.comments .c1 p {
+font-size: 18px;
+line-height: 25px;
+margin-bottom: 18px;
+}
+.comments .c1 .autor1 {
+display: flex;
+justify-content: start;
+align-items: center;
+width: 100%;
+height: 50px;
+margin-bottom: 27px;
+}
+.comments .c1 .autor1 .icon-name {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    margin-right: 5px;
+    
+}
+.comments .link-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 43px;
+    padding-left: 4px;
+    border-top: 1px solid #000000;
+}
+
+.comments .link-txt a {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
